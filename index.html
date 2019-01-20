@@ -97,7 +97,7 @@
 				<div id="navbar" class="collapse">
 					<ul>
 						<li class="active"><a href="#" data-nav-section="p1">Project 1</a></li>
-						<li><a href="#gallery" data-nav-section="p2">Project 2</a></li>
+						<li><a href="#project2" data-nav-section="p2">Project 2</a></li>
 						<li><a href="#" data-nav-section="p3">Project 3</a></li>
 						<!--<span id="busuanzi_container_site_uv">Total visitors: <span id="busuanzi_value_site_u"></span>.</span>-->
 						<!--<p>Total visitors: <span data-hk-site> - </span></p> -->
@@ -128,12 +128,28 @@ process and maintain the privacy of the secret key. In this light, Physical Uncl
 security primitive to overcome the forgery tagging problem by its radically different way of generating and processing secret keys in security hardware. PUFs are hardware structures or functions
 designed to utilize the physical disorder of random nanoscale phenomena for the derivation of keys without having to keep any security-critical information explicitly in hardware. </font></p>
 									<p class="normal justify"><font size="4" face="timesnewroman">In this work, the advancements of PUF over the past decade (2002~2017) is reviewed. Specifically, this survey addresses three fundamental questions which are at all
-times relevant in the security arms race. These questions are: how secure can a PUF be? what differences have PUFs brought to security applications and how do these differences impact
-existing security protocols? how is hardware implementation research influenced by the opportunities of nanotechnologies and new discoveries of disorder-based physical phenomena? It is
+times relevant in the security arms race. These questions are: <b>how secure can a PUF be? what differences have PUFs brought to security applications and how do these differences impact
+existing security protocols? how is hardware implementation research influenced by the opportunities of nanotechnologies and new discoveries of disorder-based physical phenomena? </b>It is
 hoped that this retrospective study of problems and solutions encountered in the journey of developing PUF to its current state will foreshadow the challenges and opportunities for future
-sustainable activities in the field.</font></p>
-										
-									</p>
+sustainable activities in the field. Some important/interesting contents are listed as below: 
+</br><b>1.</b> Weak and Strong PUFs;
+</br><b>2.</b>  Attacks on PUFs; 
+</br>.....2.1 Machine Learning based Modeling Attacks;
+</br>.....2.2 Side-Channel Attacks;
+</br><b>3.</b>  Advances in Security Applications by PUF;
+</br>.....3.1 PUF-assisted Security Protocols: (a) Oblivious transfer; (b) Bit commitment; (c) Key exchange;
+</br>.....3.2 Active Hardware Metering;
+</br><b>4.</b>  Emerging Variants of PUFs;
+</br>.....4.1 FinFET PUF
+</br>.....4.2 Emerging Non-volatile Memory based PUF: (a) Phase change memory; (b) Memoristors; (c) Magnetoresistive memory; (d) Domain wall nanowire;
+</br>.....4.3 Quantum-Secure PUF
+</br>.....4.4 Sensor PUF.
+</font></p>
+										<p class="normal justify"><font size="4" face="timesnewroman"><b>Achieved papers:</b>
+										<br/>[1] C.H. Chang, <b>Y. Zheng</b>, and L. Zhang, “A retrospective and a look forward: Fifteen years of physical unclonable function advancement,” IEEE Circuits and Syst. Magazine, vol. 17, DOI 10.1109/MCAS.2017.2713305 no. 3, pp. 32–62, 2017. <a href="https://ieeexplore.ieee.org/abstract/document/8010947">[link]</a>
+										<br/>[2] C. Q. Liu, <b>Y. Zheng</b>, C.H. Chang, “A new write-contention based dual-port SRAM PUF with multiple response bits per cell,” in Proc. IEEE Int. Symp. Circuits and Systems. (ISCAS 2017), DOI 10.1109/ISCAS.2017.8050700, Baltimore, USA, May. 2017. <a href="https://ieeexplore.ieee.org/abstract/document/8050700">[link]</a>
+										</font></p>
+	
 							</div>
 						</div>
 					</div>
@@ -151,7 +167,7 @@ sustainable activities in the field.</font></p>
 							<div class="about-desc">
 								<!--<span class="heading-meta">About Us</span>-->
 								<h2><font face="verdana"> &nbsp &nbsp &nbsp &nbsp </font></h2>	
-								<h2><font face="timesnewroman"><li id="a2"><a href="#2">Project 2: Event-driven PUF</a></li></font></h2>			
+								<h2 id="project2"><font face="timesnewroman"><li id="a2"><a href="#2">Project 2: Event-driven PUF</a></li></font></h2>			
 									
 									<p class="normal justify"><font size="4" face="timesnewroman"> Surveillance footage has become an integral part of law enforcement as video cameras become ubiquitous, affordable
 and more reliable. Dynamic vision sensor (DVS) emerges as a new sensing technology that outsmarts existing static CMOS image sensors in vision-enabled traffic monitoring, assisted living and
@@ -167,6 +183,10 @@ as a root of trust to protect the integrity of the footage.
 									</br><b>2. Non-intrusive PUF response readout scheme: </b></br> A non-intrusive PUF response readout scheme is proposed by exploiting the two unique reset switches, one continuous-timed and one self-timed, of DVS
 pixel to enable simultaneous generation of PUF response with non-disruptive output of asynchronous address-events.
 									</br><b>3. Compact design:</b></br> Only three transistors are added to each DVS pixel (14T2C1P) to isolate the PUF response readout and to prevent the spontaneously detected DVS events from interfering with the PUF operation. (T: transistor; C: capacitance; P: photodiode)
+									</font></p>
+									
+									<p class="normal justify"><font size="4" face="timesnewroman"><b>Achieved papers:</b>
+										<br/>[1] <b>Y. Zheng</b>, Y. Cao, and C.H. Chang. "A new event-driven dynamic vision sensor based physical unclonable function for camera authentication in reactive monitoring system," in Proc. Hardware-Oriented Security and Trust, DOI 10.1109/AsianHOST.2016.7835551, Yilan, Taiwan, Dec. 2016. <a href="https://ieeexplore.ieee.org/abstract/document/7835551">[link]</a>
 									</font></p>
 							</div>
 						</div>
@@ -188,19 +208,29 @@ pixel to enable simultaneous generation of PUF response with non-disruptive outp
 							<div class="about-desc">
 								<!--<span class="heading-meta">About Us</span>-->
 								<h2><font face="timesnewroman"> &nbsp &nbsp &nbsp &nbsp </font></h2>	
-								<h2><font face="timesnewroman">Project 3: User Device PUF</font></h2>			
+								<h2><font face="timesnewroman">Project 3: User-Device PUF</font></h2>			
 									
-									<p class="normal justify"><font face="timesnewroman"><b>With IT consumerization, access control to remote system by endpoint user and endpoint device is mandatory
-for security and privacy protection. Existing systems bind an end-user with his/her registered devices but authenticate only the user and device independently. This work
-presents a novel UDhashing scheme, which is capable of providing a bipartite authentication of both end-user and end-device as a whole, and mutual authentication between
+									<p class="normal justify"><font size="4" face="timesnewroman">
+									As the consumerization of IT grows, increasing number of network environments are faced with frequent influx of external or remote users using personal devices. Such trend
+thrives with Bring Your Own Device (BYOD) policy and online gaming. BYOD system allows the employees to connect their personally hold devices to the inner corporate network without
+the restriction of time and place. This developing phenomenon in enterprise IT is irresistible with appealing productivity boost and cost saving. Its security, however, is also of big concern.
+Unauthenticated access to sensitive information from external or remote personal devices makes the whole system vulnerable to network attacks. In game consoles like PS4, one Play Station
+Network account is only allowed to bind with one game console as admin user. Such scheme can control the number of shared online accounts to protect the profits of game providers, but
+secure authentication between endpoint users and endpoint devices is still lacking or inadequate. Therefore, access control to remote system by endpoint user and endpoint device is mandatory
+for security and privacy protection. Existing systems bind an end-user with his/her registered devices but authenticate only the user and device independently. </font></p>
+									<p class="normal justify"><font size="4" face="timesnewroman">
+ This work presents a novel UDhashing scheme, which is capable of providing a <b>bipartite authentication of both end-user and end-device</b> as a whole, and <b>mutual authentication</b> between
 the endpoint and the verifier. Non-contact facial biometric is extracted as user identity and physical unclonable function (PUF) is embedded into the device to generate a device
 “fingerprint”. UDhashing serves as an intermediary to unify the macroscopic human biometric and microscopic silicon entropy source into a single identity. The scheme is demonstrated
 using measured silicon data of a diode-clamped inverter based strong PUF fabricated in 40nm 1.1V CMOS technology, and the ORL and Ext. Yale B face databases. The experimental
-results show that the proposed system has good authentication performance with excellent discriminability for different (challenge, user, device) tuples. Besides, the
-proposed system is analyzed to be resilient to several known attacks. Its reliability and authentication performance can be easily enhanced by low-cost error-correction technique
-without compromising security.</b></font></p>
+results show that the proposed system has good authentication performance with <b>excellent discriminability for different (challenge, user, device) tuples</b>. Besides, the
+proposed system is analyzed to be <b>resilient to several known attacks</b>. Its reliability and authentication performance can be easily enhanced by low-cost error-correction technique
+without compromising security.</font></p>
 
-									</p>
+									<p class="normal justify"><font size="4" face="timesnewroman"><b>Achieved papers:</b>
+										</br>[1]<b> Y. Zheng</b>, Y. Cao and C.H. Chang, "UDhashing: Physical Unclonable Function Based User-Device Hash for Endpoint Authentication", IEEE Trans. Industrial Electronics (to appear).
+										<br/>[2] <b>Y. Zheng</b>, Y. Cao, and C.H. Chang, "Facial biohashing based User-Device physical unclonable function for bring your own device system (Invited Paper)," in Proc. IEEE Int. Conf. on Consumer Electronics (ICCE 2018), DOI 10.1109/ICCE.2018.8326074, Las Vegas, US, Jan. 2018. <a href="https://ieeexplore.ieee.org/abstract/document/8326074">[link]</a>
+									</font></p>
 							</div>
 						</div>
 					</div>
