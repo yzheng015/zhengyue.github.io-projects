@@ -349,7 +349,7 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 700px; /*400px*/
+        min-height: 1000px; /*400px*/
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
