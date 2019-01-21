@@ -332,7 +332,7 @@ figure {
       padding: 0 1em; } }
 
 #colorlib-hero {
-  min-height: 100%; /*1200px*/
+  min-height: 1000px; /*1200px*/
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;  
   float: left;
@@ -349,7 +349,7 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 100%; /*1000px*/
+        min-height: 800px; /*1000px*/
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
