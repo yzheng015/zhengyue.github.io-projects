@@ -327,6 +327,8 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
+	  height: 100% /* zyue*/
+	  
       padding: 0 1em; } }
 
 #colorlib-hero {
