@@ -1112,7 +1112,15 @@ body.offcanvas {
       padding: 20px;
       display: block;
       position: relative;
-      height: 300px; }
+/*
+        height: 300px; 
+        add below line by yue;
+*/
+padding-bottom: 10px;
+        
+        
+
+}
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
