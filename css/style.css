@@ -130,7 +130,12 @@ h1, h2, h3, h4, h5, h6 {
 figure {
   margin-bottom: 2.5em;
   float: left;
-  width: 100%; }
+  width: 100%; 
+  height: 100%;
+    
+    
+    
+}
   figure figcaption {
     font-size: 16px;
     width: 80%;
@@ -140,7 +145,11 @@ figure {
     font-family: "Quicksand", Arial, sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
-        width: 100%; } }
+        width: 100%; 
+        height:100%;
+        
+        
+        } }
 
 ::-webkit-selection {
   color: #fff;
@@ -156,6 +165,10 @@ figure {
 
 #colorlib-page {
   width: 100%;
+  height: 100%;  
+    
+    
+    
   overflow: hidden;
   position: relative; }
 
@@ -200,7 +213,12 @@ figure {
     font-size: 22px;
     margin-bottom: .5em;
     display: block;
-    width: 100%; }
+    width: 100%; 
+    height:100%;
+
+
+
+}
     #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
@@ -208,7 +226,12 @@ figure {
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
-    width: 100%; }
+    width: 100%;
+    height:100%;
+
+
+
+}
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
